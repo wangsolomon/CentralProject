@@ -1,6 +1,6 @@
 
 function main() {
-  var dataset = [20, 20, 30, 40, 50];
+
   var width = 2000;
   var scaleFactor = 10;
   var barHeight = 20;
