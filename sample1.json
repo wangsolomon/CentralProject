@@ -1,0 +1,54 @@
+{
+  "name": [
+    {
+      "id": [
+        {
+          "pedestrian_red": 3,
+          "pedestrian_flash": 7,
+          "green": 15,
+          "yellow": 3,
+          "red": 2
+        },
+        {
+          "pedestrian_red": 0,
+          "pedestrian_flash": 0,
+          "green": 10,
+          "yellow": 3,
+          "red": 2
+        },
+        {
+          "pedestrian_red": 3,
+          "pedestrian_flash": 7,
+          "green": 25,
+          "yellow": 3,
+          "red": 2
+        }
+      ]
+    },
+    {
+      "id": [
+        {
+          "pedestrian_red": 3,
+          "pedestrian_flash": 7,
+          "green": 15,
+          "yellow": 3,
+          "red": 2
+        },
+        {
+          "pedestrian_red": 0,
+          "pedestrian_flash": 0,
+          "green": 10,
+          "yellow": 3,
+          "red": 2
+        },
+        {
+          "pedestrian_red": 3,
+          "pedestrian_flash": 7,
+          "green": 25,
+          "yellow": 3,
+          "red": 2
+        }
+      ]
+    }
+  ]
+}
