@@ -1,54 +1,92 @@
-{
-  "name": [
-    {
-      "id": [
-        {
-          "pedestrian_red": 3,
-          "pedestrian_flash": 7,
-          "green": 15,
-          "yellow": 3,
-          "red": 2
-        },
-        {
-          "pedestrian_red": 0,
-          "pedestrian_flash": 0,
-          "green": 10,
-          "yellow": 3,
-          "red": 2
-        },
-        {
-          "pedestrian_red": 3,
-          "pedestrian_flash": 7,
-          "green": 25,
-          "yellow": 3,
-          "red": 2
-        }
-      ]
-    },
-    {
-      "id": [
-        {
-          "pedestrian_red": 3,
-          "pedestrian_flash": 7,
-          "green": 15,
-          "yellow": 3,
-          "red": 2
-        },
-        {
-          "pedestrian_red": 0,
-          "pedestrian_flash": 0,
-          "green": 10,
-          "yellow": 3,
-          "red": 2
-        },
-        {
-          "pedestrian_red": 3,
-          "pedestrian_flash": 7,
-          "green": 25,
-          "yellow": 3,
-          "red": 2
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "road_name": "測試路1",
+    "intersection_id": 1,
+    "r_distance": 100,
+    "pedestrian_red": 7,
+    "pedestrian_flash": 7,
+    "green": 15,
+    "yellow": 3,
+    "red": 2
+  },
+  {
+    "road_name": "測試路1",
+    "intersection_id": 1,
+    "r_distance": 300,
+    "pedestrian_red": 1,
+    "pedestrian_flash": 0,
+    "green": 10,
+    "yellow": 3,
+    "red": 2
+  },
+  {
+    "road_name": "測試路1",
+    "intersection_id": 1,
+    "r_distance": 400,
+    "pedestrian_red": 4,
+    "pedestrian_flash": 7,
+    "green": 25,
+    "yellow": 3,
+    "red": 2
+  },
+  {
+    "road_name": "測試路2",
+    "intersection_id": 2,
+    "r_distance": 400,
+    "pedestrian_red": 3,
+    "pedestrian_flash": 7,
+    "green": 25,
+    "yellow": 3,
+    "red": 2
+  },
+  {
+    "road_name": "測試路2",
+    "intersection_id": 2,
+    "r_distance": 400,
+    "pedestrian_red": 6,
+    "pedestrian_flash": 7,
+    "green": 25,
+    "yellow": 3,
+    "red": 2
+  },
+  {
+    "road_name": "測試路2",
+    "intersection_id": 2,
+    "r_distance": 400,
+    "pedestrian_red": 1,
+    "pedestrian_flash": 7,
+    "green": 25,
+    "yellow": 3,
+    "red": 2
+  },
+  {
+    "road_name": "測試路3",
+    "intersection_id": 3,
+    "r_distance": 400,
+    "pedestrian_red": 2,
+    "pedestrian_flash": 7,
+    "green": 25,
+    "yellow": 3,
+    "red": 2
+  },
+  {
+    "road_name": "測試路3",
+    "intersection_id": 3,
+    "r_distance": 400,
+    "pedestrian_red": 5,
+    "pedestrian_flash": 7,
+    "green": 25,
+    "yellow": 3,
+    "red": 2
+  },
+  {
+    "road_name": "測試路3",
+    "intersection_id": 3,
+    "r_distance": 400,
+    "pedestrian_red": 7,
+    "pedestrian_flash": 7,
+    "green": 25,
+    "yellow": 3,
+    "red": 2
+  }
+]
