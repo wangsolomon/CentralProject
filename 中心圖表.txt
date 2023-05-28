@@ -1,0 +1,75 @@
+{
+  "default_width": 1600,//預設寬度
+  "default_height": 1200,
+  "x_ratio":1,//X軸比值
+  "y_ratio":1,//Y軸比值
+  "repeat_count":3, //時制計畫重複次數
+  "show_time_range":223, //X軸總時間 
+  "show_distance_range":300,// Y軸總距離
+  "line_speed":60 , //預設時速
+  "show_cannot_pass_color":0,//是否要顯示知道綠燈紅燈(不能通過是否要顯示為紅燈)
+  "show_pfpa":1, // 是否顯示可通過之行人閃跟行人紅
+  
+  "road": [{
+    "crossroad_name":"台灣大道/文心路十字路口100124155132",
+    "last_road_distance": 0, //距離上一個路口的距離, 第一個路口設定為零即可
+    "timeplan":[{ //同一個路口的時制計畫
+      "g": 25,
+      "pf":2,
+      "pr":3,
+      "y": 3,
+      "ar": 2,
+      "can_pass":0// 是否可以通過
+    },
+    {
+      "g": 25,
+      "pf":2,
+      "pr":3,
+      "y": 3,
+      "ar": 2,
+      "can_pass":1  
+    }]
+  },
+  {
+    "crossroad_name":"台灣大道/惠鐘路十字路口100124999999",
+    "last_road_distance": 20.25,
+    "timeplan":[{
+      "g": 25,
+      "pf":2,
+      "pr":3,
+      "y": 3,
+      "ar": 2,
+      "can_pass":0
+    },
+    {
+      "g": 25,
+      "pf":2,
+      "pr":3,
+      "y": 3,
+      "ar": 2,
+      "can_pass":1  
+    }]
+  }
+  ],
+  "draw_lines":[ // 畫線部分
+    {
+      "start_crossroad":3, //起始路口
+      "mode":"reverse_from_end", //從最後可通過的時間逆推
+      "direction":"up", //上或下
+      "last_crossroad":0 //結束道路
+    },     
+    {
+      "start_crossroad":0,
+      "mode":"green_start",//綠燈起始開始畫線
+      "direction":"up",
+      "last_crossroad":5
+    },
+    {
+      "start_crossroad":2,
+      "mode":"green_end",//綠燈結束開始畫線
+      "direction":"down",
+      "last_crossroad":5
+    }
+
+  ]
+}

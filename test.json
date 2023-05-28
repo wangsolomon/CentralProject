@@ -1,0 +1,78 @@
+{
+    "default_width": 1600,
+    "default_height": 1200,
+    "x_ratio": 1,
+    "y_ratio": 1,
+    "repeat_count": 3,
+    "show_time_range": 223,
+    "show_distance_range": 300,
+    "line_speed": 60,
+    "show_cannot_pass_color": 0,
+    "show_pfpa": 1,
+    "road": [
+        {
+            "crossroad_name": "台灣大道/文心路十字路口100124155132",
+            "last_road_distance": 0,
+            "timeplan": [
+                {
+                    "g": 25,
+                    "pf": 2,
+                    "pr": 3,
+                    "y": 3,
+                    "ar": 2,
+                    "can_pass": 0
+                },
+                {
+                    "g": 25,
+                    "pf": 2,
+                    "pr": 3,
+                    "y": 3,
+                    "ar": 2,
+                    "can_pass": 1
+                }
+            ]
+        },
+        {
+            "crossroad_name": "台灣大道/惠鐘路十字路口100124999999",
+            "last_road_distance": 20.25,
+            "timeplan": [
+                {
+                    "g": 25,
+                    "pf": 2,
+                    "pr": 3,
+                    "y": 3,
+                    "ar": 2,
+                    "can_pass": 0
+                },
+                {
+                    "g": 25,
+                    "pf": 2,
+                    "pr": 3,
+                    "y": 3,
+                    "ar": 2,
+                    "can_pass": 1
+                }
+            ]
+        }
+    ],
+    "draw_lines": [
+        {
+            "start_crossroad": 3,
+            "mode": "reverse_from_end",
+            "direction": "up",
+            "end_crossroad": 0
+        },
+        {
+            "start_crossroad": 0,
+            "mode": "green_start",
+            "direction": "up",
+            "end_crossroad": 5
+        },
+        {
+            "start_crossroad": 2,
+            "mode": "green_end",
+            "direction": "down",
+            "end_crossroad": 5
+        }
+    ]
+}

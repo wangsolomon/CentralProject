@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="index.js"></script>
+    <script src="test.js"></script>
     <script type="module">
 
         import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
@@ -18,13 +18,8 @@
 </head>
 <!-- onload="main()" -->
 
-<body id="addcheckbox">
-    <label for="times">重複次數:</label>
-    <input type="text" id="times" name="times" value="3">
-    <input type="submit" value="Submit" onclick="test()">
-    <script>
-
-    </script>
+<body id="addcheckbox" onload="main()">
+    <svg width="2000" height="1200" id="c"></svg>
 
 
 </body>

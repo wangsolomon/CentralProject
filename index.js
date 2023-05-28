@@ -1,17 +1,17 @@
 
 function test() {
   var timesvalue = document.getElementById("times").value;
-  // for (let index = 0; index < timesvalue; index++) {
-  //   var txt1 = `<input type="checkbox" id="${index}" name="showcolor" ></input>`;
+  for (let index = 0; index < timesvalue; index++) {
+    var txt1 = `<input type="checkbox" id="${index}" name="showcolor" ></input>`;
 
-  //   // <label for="times">重複次數:</label>
-  //   // 
-  //   var txt2 = `<p>顏色-${index}。</p>`;
-  //   var txt3 = `<label for="showcolor">第+${index}+次</label>`;
+    // <label for="times">重複次數:</label>
+    // 
+    // var txt2 = `<p>顏色-${index}。</p>`;
+    // var txt3 = `<label for="showcolor">第+${index}+次</label>`;
 
-  //   document.createElement("addcheckbox").append(txt1, txt2, txt3);
-  //   $("<input type="checkbox" id="${index}" name="showcolor" ></input>").appendto("body")
-  // } 
+    // document.createElement("addcheckbox").append(txt1, txt2, txt3);
+    // $("<input type="checkbox" id="${index}" name="showcolor" ></input>").appendto("body")
+  } 
 
   main();
 
