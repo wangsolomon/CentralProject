@@ -11,7 +11,7 @@ function test() {
 
     // document.createElement("addcheckbox").append(txt1, txt2, txt3);
     // $("<input type="checkbox" id="${index}" name="showcolor" ></input>").appendto("body")
-  } 
+  }
 
   main();
 
